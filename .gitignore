@@ -1,0 +1,13 @@
+# Live database credentials (upload to the server manually)
+config/database.live.php
+
+# User-uploaded profile pictures
+uploads/profile/*
+!uploads/profile/.gitkeep
+!uploads/profile/.htaccess
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
